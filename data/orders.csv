@@ -1,0 +1,16 @@
+order_id,order_date,customer_id,region,channel,shipping_fee
+O1001,2026-01-03,C001,Atlantic,web,5.99
+O1002,2026-01-04,C002,Ontario,web,7.99
+O1003,2026-01-06,C003,Quebec,marketplace,0.00
+O1004,2026-01-07,C004,Atlantic,web,5.99
+O1005,2026-01-09,C005,Ontario,web,7.99
+O1006,2026-01-10,C006,BC,marketplace,0.00
+O1007,2026-01-12,C001,Atlantic,web,5.99
+O1008,2026-01-13,C007,Prairies,web,6.99
+O1009,2026-01-14,C008,Quebec,web,7.99
+O1010,2026-01-16,C009,Ontario,marketplace,0.00
+O1011,2026-01-18,C010,Atlantic,web,5.99
+O1012,2026-01-20,C005,Ontario,web,7.99
+O1013,2026-01-21,C006,BC,web,8.99
+O1014,2026-01-24,C002,Ontario,web,7.99
+O1015,2026-01-26,C003,Quebec,marketplace,0.00
