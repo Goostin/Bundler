@@ -25,3 +25,14 @@ else()
 endif()
 
 install(TARGETS bundler RUNTIME DESTINATION bin)
+
+add_executable(proof_reduce
+    tests/proof_reduce.cpp
+)
+
+target_compile_features(proof_reduce PRIVATE cxx_std_17)
+if(MSVC)
+    target_compile_options(proof_reduce PRIVATE /W4)
+else()
+    target_compile_options(proof_reduce PRIVATE -Wall -Wextra -Wpedantic)
+endif()
